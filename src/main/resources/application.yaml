@@ -1,0 +1,13 @@
+spring: 
+  profiles: 
+    active: 
+      - dev
+  jackson:
+    serialization:
+      indent_output: true
+
+server:
+  port: 8080
+  compression: 
+    enable: true
+    mime-types: application/json
