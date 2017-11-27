@@ -1,10 +1,10 @@
-package com.elo7.rest.models;
+package com.elo7.rest.v1.models;
 
 import java.time.LocalDateTime;
 
 public class User {
 
-	public User(String email, String fullName) {
+	public User(String fullName, String email) {
 		super();
 		this.email = email;
 		this.fullName = fullName;

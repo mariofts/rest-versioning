@@ -5,9 +5,11 @@ spring:
   jackson:
     serialization:
       indent_output: true
+      write_dates_as_timestamps: false
 
 server:
   port: 8080
+  contextPath: /api/
   compression: 
     enable: true
     mime-types: application/json

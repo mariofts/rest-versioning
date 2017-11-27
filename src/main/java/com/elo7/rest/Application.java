@@ -2,8 +2,9 @@ package com.elo7.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-@SpringBootApplication(scanBasePackages="com.elo7")
+@SpringBootApplication
 public class Application{
 	
 	public static void main(String[] args) {
